@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* theme light */
+  /* background */
+  --body-background: hsl(0, 0%, 90%);
+  --toogle-background:hsl(0, 5%, 81%);
+  --screen-background: hsl(0, 0%, 93%);
+  /* Keys */
+  --key-background: hsl(185, 42%, 37%);
+  --key-background-2: hsl(45, 7%, 89%);
+  --key-background-toggle: hsl(25, 98%, 40%);
+  --key-shadow: hsl(185, 58%, 25%);
+  --key-shadow-2: hsl(25, 99%, 27%);
+  --key-shadow-3: hsl(35, 11%, 61%);
+  /* Text */
+  --Very-dark-grayish-blue:  hsl(60, 10%, 19%);
+  --screen-color-text: hsl(0, 0%, 0%);
+  
+  /* theme dark */
+  /* background */
+  --theme-dark-body-background: hsl(222, 26%, 31%);
+  --theme-dark-toogle-background: hsl(223, 31%, 20%);
+  --theme-dark-screen-background: hsl(224, 36%, 15%);
+  /* Keys */
+  --theme-dark-key-background: hsl(225, 21%, 49%);
+  --theme-dark-key-background-2: hsl(30, 25%, 89%);
+  --theme-dark-key-background-toggle: hsl(6, 63%, 50%);
+  --theme-dark-key-shadow: hsl(224, 28%, 35%);
+  --theme-dark-key-shadow-2: hsl(6, 70%, 34%);
+  --theme-dark-key-shadow-3: hsl(28, 16%, 65%);
+  /* Text */
+  --theme-dark-Very-dark-grayish-blue: hsl(221, 14%, 31%); 
+  --theme-dark-screen-color-text: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 16px;
+}
+
+button {
+  border: none;
+  outline: none;
+}

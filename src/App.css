@@ -1,0 +1,51 @@
+.App {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+#light {
+  background-color: var(--body-background);
+  transition: all .5s ease;
+}
+
+.calculatorApp {
+  width: 320px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ContainerButtons {
+  background-color: var(--toogle-background);
+  padding: 1.4em;
+  border-radius: 1rem;
+}
+
+.fila {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+.themeSwitcher {
+  background-color: transparent;
+  font-size: 1.5em;
+}
+
+#dark {
+  background-color: var(--theme-dark-body-background);
+  transition: all .5s ease;
+}
+
+#dark .header__title {
+  color: #ffffff;
+}
+
+#dark .ContainerButtons {
+  background-color: var(--theme-dark-toogle-background);
+}
+

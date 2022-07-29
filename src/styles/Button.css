@@ -1,0 +1,31 @@
+.Button {
+  width: 58px;
+  height: 58px;
+  font-size: 32px;
+  font-weight: 700;
+  border-radius: .5rem;
+  background-color: var(--key-background-2);
+  box-shadow: 0px 5px 0px 0px var(--key-shadow-3);
+  color: var(--Very-dark-grayish-blue);
+  user-select: none;
+}
+
+#dark .Button {
+  background-color: var(--theme-dark-key-background-2);
+  color: var(--theme-dark-Very-dark-grayish-blue);
+  box-shadow: 0px 5px 0px 0px var(--theme-dark-key-shadow-3);
+}
+
+@media only screen and (min-width: 1000px) {
+  .Button {
+    cursor: pointer;
+  }
+
+  .Button:hover {
+    background-color: #FFFFFF;
+  }
+
+  #dark .Button:hover {
+    background-color: #ffffff;
+  }
+}

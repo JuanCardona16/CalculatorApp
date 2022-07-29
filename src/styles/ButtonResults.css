@@ -1,0 +1,23 @@
+.ButtonResults {
+  background-color: var(--key-background-toggle);
+  box-shadow: 0px 5px 0px 0px var(--key-shadow-2);
+  color: #FFFFFF;
+  width: 50%;
+  margin-left: 10px;
+}
+
+#dark .ButtonResults {
+  background-color: var(--theme-dark-key-background-toggle);
+  box-shadow: 0px 5px 0px 0px var(--theme-dark-key-shadow-2);
+  color: #FFFFFF;
+}
+
+@media only screen and (min-width: 1000px) {
+  .ButtonResults:hover {
+    background-color:   hsl(25, 100%, 46%);
+  }
+
+  #dark .ButtonResults:hover {
+    background-color: hsl(6, 87%, 59%);
+  }
+}
